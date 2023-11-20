@@ -40,9 +40,7 @@ const updateAccentColorValue = (color) => {
 };
 
 const updateAccentColor = (color) => {
-  if (/^#[0-9A-F]{6}$/i.test(color)) {
     accentColor.value = color;
-  }
 };
 
 accentColor.addEventListener('input', () => {
